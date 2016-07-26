@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<hmtl lang ="en" id="bootstrap-override">
+
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<!--<script src="../app.js" type="text/javascript"></script> -->
+
+   <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body id="bootstrap-override">
+
+    <h1>Contact Me</h1>
+
+    <h3>Hey you, thanks for your interest!</h3>
+    <h4>(I assume you're here to contact me, but if not, I won't hold it against you.)</h4>
+    <h3>Please fill out the short form below to get in touch with me.</h3> 
+    <h4>I'll try my best to give prompt responses (Don't quote me on that).</h4>
+
+    <div id="form-box">
+        <form role="form" method="post" action="contact_submit.php">
+       
+            <div class="form-group">	
+        	    <label for="name">Your Name (or your dog's name):</label>
+        	    <input class="form-control input-lg" type="text" name="sender" id="name inputlg" placeholder="Name">
+            </div>
+            <div class="form-group">	
+        	    <label for="email">Your Email:</label>
+        	    <input class="form-control input-lg" type="email" id="email" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+            	<label for="msg">Message:</label>
+            	<textarea class="form-control input-lg" id="msg" name="message" placeholder="Message"></textarea>
+            </div>
+        
+            <button type="submit" class="btn btn-primary btn-lg" name="ContactForm" >Submit</button>
+        </form>
+    </div>
+
+
+
+
+</body>
+
+
+
+</hmtl>
