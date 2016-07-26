@@ -33,8 +33,8 @@
 		<p class="description"><?php echo config('blog.description')?></p>
 
 		<ul>
-			<li><a href="http://localhost:8888/towerof-lysa/">Home</a></li>
-			<li><a href="http://localhost:8888/towerof-lysa/contact/">Contact Me</a></li>
+			<li><a href="http://towerof-lysa.github.io/">Home</a></li>
+			<li><a href="http://towerof-lysa.github.io/contact/">Contact Me</a></li>
 			<li></li>
 			<br>
 			<a href="https://www.instagram.com/tower_of_lysa/" target="_blank"><img style="height: auto;
