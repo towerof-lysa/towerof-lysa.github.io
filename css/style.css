@@ -71,7 +71,7 @@ a {
 	font-size: 150%;
 	color: #ffffff;
 	text-decoration: none;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 1px 1px #000000;
 
 }
 
@@ -91,6 +91,12 @@ textarea {
 /* ------------------------ *
 *  --- STYLE ELEMENTS ----- *
 *  ------------------------ */
+
+#email {
+
+	color: #43e8d8;
+
+}
 
 #form-box {
 
