@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<style type="text/css">
+		
+		html {
+		  position: relative;
+		  min-height: 100%;
+		}
+	
+		.footer {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  padding: 20px;
+		  /* Set the fixed height of the footer here */
+		  height: 60px;
+		  background-color: #f5f5f5;
+		}
+
+		body 
+		{	
+			background: #fff;	
+			margin: 0;
+			font-family: Georgia, serif;
+			margin-bottom: 60px;
+		}
+		p
+		{
+			font-size: 120%;
+		}
+		a
+		{
+			text-decoration: none;
+		}
+
+		#text1 
+		{
+		  z-index: 100;
+		  position: absolute;
+		  color: white;
+		  letter-spacing: 10px;
+		  font-size: 40px;
+		  left: 150px;
+		  top: 12%;
+		  box-sizing: border-box;
+		}
+
+		#text2 
+		{
+		  z-index: 100;
+		  
+		  color: white;
+		  letter-spacing: 10px;
+		  font-size: 40px;
+		  left: 150px;
+		  top: 80%;
+		  box-sizing: border-box;
+		}
+
+		.green
+		{
+		  background : #22B573;
+		  color: #333333;
+		  background : rgba(34, 181, 115, 1);
+		  overflow: hidden;
+		  margin-top: 0px;
+		  height: 400px;
+		  width: 100%;
+		  padding: 50px;
+		  box-sizing: border-box;
+		  line-height: 1.8;
+	  	  /*transform: rotate(5deg);*/
+
+		}
+
+		.pink-top
+		{
+		  background : #E42B66;
+		  background : rgba(228, 43, 102, 1);
+		  overflow: hidden;
+		  margin-top: -400px;
+		  height: 100px;
+		  /*transform: rotate(-5deg);*/
+	      width: 100%;
+	      margin: 0;
+		}
+
+		.pink
+		{
+		  background : #E42B66;
+		  background : rgba(228, 43, 102, 1);
+		  overflow: hidden;
+		  margin-top: -400px;
+		  height: 100px;
+		  /*transform: rotate(-5deg);*/
+	      width: 100%;
+	      padding: 50px;
+		  box-sizing: border-box;
+	      margin: 0;
+	      line-height: 1.8;
+	      color: #d2d2d2;
+		}
+
+
+		.slope
+		{
+			transform-origin: right center; 
+			box-shadow: -1px 3px 3px rgba(0,0,0,0.4);
+		}
+
+
+		#top-pic 
+		{
+			width: 100%;
+			margin-top: 4px;
+			margin-bottom: 4px;
+		}
+
+		.gscale
+		{
+			-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    		filter: grayscale(100%);
+    		-webkit-transition: all .6s ease; 
+		}
+		.gscale:hover
+		{
+			filter: grayscale(0%);
+			-webkit-filter: grayscale(0%);
+			filter: none;
+		}
+
+		.nav-fade li {
+		   background: #E42B66;
+		   font-size: 150%;
+		   padding: 13px 20px;
+		   display: inline-block;
+		   -moz-transition: background 0.5s ease-in-out;
+		   -webkit-transition: background s ease-in-out;
+		    transition: background 0.5s ease-in-out;
+		   }
+
+		.nav-fade li:hover {
+		      background: #b62251;
+		 }
+
+		 li a
+		 {
+		 	color: #333333;
+		 }
+		 a:hover{
+
+		 	color: white;
+		 }
+
+
+	</style>
+
+</head>
+<body>
+
+	<div class="pink-top">
+	<br>
+		<ul class="nav-fade">
+		  <li role="presentation"><a style="text-decoration: none;" href="#">Home</a></li>
+		  <li role="presentation"><a style="text-decoration: none;" href="#">About</a></li>
+		  <li role="presentation"><a style="text-decoration: none;" href="#">Gallery</a></li>
+		  <li role="presentation"><a style="text-decoration: none;" href="#">Contact</a></li>
+		</ul>
+
+	</div>
+
+	<div class="well">
+		
+		This simple one-page layout uses Bootstrap's general style elements, including the Sticky Footer. Navigation Bar links are responsive on hover, as well as the page images, which are brought to life in color when moused over. The page is broken up by simple CSS text boxes that span the width of the view. 
+
+	</div>
+
+	<img id="top-pic" class="gscale" src="http://science-all.com/images/wallpapers/high-resolution-image-download/high-resolution-image-download-12.jpg">
+	
+	<p id="text1">
+    	AESTHETIC
+  	</p>
+
+	<div class="green">	
+		<h1>Do you feel like a hispter yet?</h1>
+		<br>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+		</p>
+
+	</div> 
+
+	<img id=top-pic class="gscale" src="http://photograpf.com/wp-content/uploads/2016/06/Everest_Himalayas_in_Autumn.jpg">
+
+
+	<div style="height: 400px;" class="pink slope">
+
+		<h1>Picturesque -- Find your center</h1>
+		<br>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+		</p>
+
+	</div>
+
+	<footer class="footer">
+      <div class="container">
+        <p class="text-muted">2016 Designed @ Tower of Lysa</p>
+      </div>
+    </footer>
+
+
+</body>
+</html>

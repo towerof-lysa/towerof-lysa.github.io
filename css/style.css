@@ -82,6 +82,11 @@ a {
 
 }
 
+a:hover {
+	color: #43f8d8;
+
+}
+
 label {
 
 	color: #fff;
@@ -128,6 +133,7 @@ textarea {
   padding: 15px;
   margin: auto;
   opacity: 0.9;
+  border: 4px solid white;
 
 }
 
@@ -164,6 +170,7 @@ textarea {
 	margin-left: 20px;
 	margin-top: 5%;
 	font-size: 115%;
+	border: 4px solid white;
 
 }
 
@@ -225,18 +232,20 @@ textarea {
   position: absolute;
   width: 300px;
   opacity: 0.8;
+  padding-bottom: 25%;
+  padding-top: 0;
 }
 
 .funbox {
 
-	height: 5%;
-	width: 95%;  
+	height: 10%;
+	width: 80%;  
 	/*background: #73AD21;*/
 	border-radius: 15px 50px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
-	padding-top: 5px;
+	padding-top: 0px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: relative;
 
@@ -308,13 +317,14 @@ textarea {
 
 .menu-icon {
 
-	padding-top: 10px;
+	padding-top: 5%;
 	padding-bottom: 0px;
 	text-transform: uppercase;
 	font-size: 150%;
 	cursor: pointer;
 	letter-spacing: 2px;
 	position: relative;
+	color: white;
 	
 
 
@@ -324,12 +334,13 @@ textarea {
 
 	padding-top: 0px;
 	padding-bottom: 10px;
-	padding-left: 85%;
+	padding-left: 73%;
 	text-transform: uppercase;
 	font-size: 250%;
 	cursor: pointer;
 	letter-spacing: 2px;
 	position: relative;
+	color: white;
 	
 
 

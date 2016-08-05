@@ -19,10 +19,10 @@ $(".close-icon").click(function(){
 //hover to expand with dequeue
 $(".funbox").hover(function(){
 	if (!$(this).hasClass('animated')) {
-		$(this).dequeue().stop().animate({ width: "125%" }, 200);
+		$(this).dequeue().stop().animate({ width: "100%" }, 200);
 	}
 }, function() {
-    $(this).addClass('animated').animate({ width: "95%" }, "normal", "linear", function() {
+    $(this).addClass('animated').animate({ width: "80%" }, "normal", "linear", function() {
 		$(this).removeClass('animated').dequeue();
 	});
 });
