@@ -16,13 +16,13 @@ html{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
+    height: 100%;
 	/*background: gray; /* For browsers that do not support gradients */
     /*background: -webkit-linear-gradient(black, gray); /* For Safari 5.1 to 6.0 */
     /*background: -o-linear-gradient(black, gray); /* For Opera 11.1 to 12.0 */
     /*background: -moz-linear-gradient(black, gray); /* For Firefox 3.6 to 15 */
     /*background: linear-gradient(black, gray); /* Standard syntax */
-    height: 100%;
+
    
 }
 
@@ -35,7 +35,7 @@ body {
     
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-top: 40px;
+	padding-top: 70px;
 	font-family: "Courier New";
 	background-attachment: fixed;
 	margin-bottom: 60px;
