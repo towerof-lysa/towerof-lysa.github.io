@@ -1,0 +1,165 @@
+/* CSS Stylesheet for New Stuff */
+
+/* Page */
+
+
+html {
+
+
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    font-family: "Courier New";
+    background: url("https://s32.postimg.org/epc692m2d/wood.jpg") no-repeat center center fixed !important; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+    height: 100%;
+
+}
+
+footer {
+    margin: 50px 0;
+    color: #fff;
+    font-size: 80%;
+}
+
+footer a{
+  font-size: 100%;
+  text-decoration: none;
+
+}
+
+h1 {
+
+	color: #ffffff;
+	letter-spacing: 2px;
+
+}
+
+h3 {
+
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+
+h4 {
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+
+}
+
+.navbar a {
+
+	font-style: bold;
+	font-size: 150%;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 1px 1px #000000;
+
+}
+
+.navbar a:hover {
+	
+	color: #43f8d8;
+
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/*----------------------*/
+/* Page Stuff (Content) */
+/*----------------------*/
+
+#title-box {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+
+}
+
+.sidebar a{
+
+	font-style: bold;
+	font-size: 110%;
+	color: #288b81;
+	text-decoration: none;
+	text-shadow: 1px 1px #000000;
+
+}
+
+.sidebar a:hover{
+
+	color: #43E8D8;
+
+}
+
+.posty a{
+
+	font-style: bold;
+	font-size: 130%;
+	color: #ffffff;
+	text-decoration: none;
+	text-shadow: 1px 1px #000000;
+	float: right;
+
+}
+
+.posty a:hover{
+
+	color: #43E8D8;
+
+}
+
+
+.well {
+  
+  background : -moz-linear-gradient(50% 0% -90deg,rgba(67, 232, 216, 1) 0%,rgba(84, 234, 220, 1) 4.05%,rgba(129, 240, 229, 1) 15.85%,rgba(168, 244, 237, 1) 28.13%,rgba(200, 248, 243, 1) 40.76%,rgba(224, 251, 249, 1) 53.84%,rgba(241, 253, 252, 1) 67.55%,rgba(252, 255, 254, 1) 82.31%,rgba(255, 255, 255, 1) 100%);
+  background : -webkit-linear-gradient(-90deg, rgba(67, 232, 216, 1) 0%, rgba(84, 234, 220, 1) 4.05%, rgba(129, 240, 229, 1) 15.85%, rgba(168, 244, 237, 1) 28.13%, rgba(200, 248, 243, 1) 40.76%, rgba(224, 251, 249, 1) 53.84%, rgba(241, 253, 252, 1) 67.55%, rgba(252, 255, 254, 1) 82.31%, rgba(255, 255, 255, 1) 100%);
+  background : -webkit-gradient(linear,50% 0% ,50% 100% ,color-stop(0,rgba(67, 232, 216, 1) ),color-stop(0.0405,rgba(84, 234, 220, 1) ),color-stop(0.1585,rgba(129, 240, 229, 1) ),color-stop(0.2813,rgba(168, 244, 237, 1) ),color-stop(0.4076,rgba(200, 248, 243, 1) ),color-stop(0.5384,rgba(224, 251, 249, 1) ),color-stop(0.6755,rgba(241, 253, 252, 1) ),color-stop(0.8231,rgba(252, 255, 254, 1) ),color-stop(1,rgba(255, 255, 255, 1) ));
+  background : -o-linear-gradient(-90deg, rgba(67, 232, 216, 1) 0%, rgba(84, 234, 220, 1) 4.05%, rgba(129, 240, 229, 1) 15.85%, rgba(168, 244, 237, 1) 28.13%, rgba(200, 248, 243, 1) 40.76%, rgba(224, 251, 249, 1) 53.84%, rgba(241, 253, 252, 1) 67.55%, rgba(252, 255, 254, 1) 82.31%, rgba(255, 255, 255, 1) 100%);
+  background : -ms-linear-gradient(-90deg, rgba(67, 232, 216, 1) 0%, rgba(84, 234, 220, 1) 4.05%, rgba(129, 240, 229, 1) 15.85%, rgba(168, 244, 237, 1) 28.13%, rgba(200, 248, 243, 1) 40.76%, rgba(224, 251, 249, 1) 53.84%, rgba(241, 253, 252, 1) 67.55%, rgba(252, 255, 254, 1) 82.31%, rgba(255, 255, 255, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#43E8D8', endColorstr='#FFFFFF' ,GradientType=0)";
+  background : linear-gradient(180deg, rgba(67, 232, 216, 1) 0%, rgba(84, 234, 220, 1) 4.05%, rgba(129, 240, 229, 1) 15.85%, rgba(168, 244, 237, 1) 28.13%, rgba(200, 248, 243, 1) 40.76%, rgba(224, 251, 249, 1) 53.84%, rgba(241, 253, 252, 1) 67.55%, rgba(252, 255, 254, 1) 82.31%, rgba(255, 255, 255, 1) 100%);
+  border-radius : 12px;
+  -moz-border-radius : 12px;
+  -webkit-border-radius : 12px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#43E8D8',endColorstr='#FFFFFF' , GradientType=0);
+
+}
+
+.posty {
+/*
+	background-color: #ffffff;
+	opacity: 0.5; */
+	color: #ffffff;
+	font-size: 115%;
+
+}
+
+.posty h1, h4 {
+
+	color: #43E8D8;
+	font-style: bold;
+	text-shadow: 1px 1px #ffffff;
+
+}
+
+.sm-icon {
+
+	height: auto;
+	width: 100%;
+	opacity: 0.4;
+	cursor: pointer;
+
+}
+

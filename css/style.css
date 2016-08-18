@@ -100,6 +100,33 @@ textarea {
 
 }
 
+.listy {
+	color: white;
+	font-size: 130%;
+
+}
+
+.texts {
+	color: white;
+	font-size: 130%;
+
+}
+
+li {
+	font-style: bold;
+	text-decoration: none;
+}
+
+table {
+
+	color: white;
+	font-size: 130%;
+	margin: auto;
+	float: none;
+
+}
+
+
 /* ------------------------ *
 *  --- STYLE ELEMENTS ----- *
 *  ------------------------ */
