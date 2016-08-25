@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+				/* CSS */
+
+		body {
+
+			background-color: #1493ca;
+			margin-bottom: 10%;
+
+		}
+
+
+		html {
+
+			font-family: "Agenda-Light", Agenda Light, Agenda, Arial Narrow, sans-serif;
+			position: relative;
+			min-height: 100%;
+
+
+		}
+
+		h4 {
+			text-align: center;
+			font-family: "Agenda-Light";
+		}
+
+			
+		.footer {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			padding: 20px;
+			/* Set the fixed height of the footer here */
+			height: 10%;
+			background-color: #f5f5f5;
+			margin-top: 60px;
+			text-align: center;
+		}
+
+		.footer a {
+
+			color: black;
+			text-decoration: none;
+			letter-spacing: 0.2em;
+		}
+
+		.footer a:hover {
+
+			color: #1493ca;
+
+		}
+
+
+		h1 {
+
+			color: white;
+		}
+
+		.nav a {
+
+			color: #1493ca;
+		}
+
+
+		#nav-top {
+
+			background-color: white;
+			height: 50%;
+		}
+
+		#brand {
+
+			font-family: "Agenda";
+
+		}
+
+		#picture {
+
+			width: 100%;
+			height: 50rem;
+			box-shadow: 0px 3px 10px #424242;
+
+		}
+
+		.box {
+
+			margin-bottom: 20%;
+
+		}
+		
+	</style>
+</head>
+<body>
+
+	<nav class="nav" id="nav-top">
+		<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" id="brand" href="#">
+	          	WoodWorks
+	          </a>
+	        </div>
+	        <!-- Collect the nav links, forms, and other content for toggling -->
+	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          		<ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Contact</a>
+                    </li>
+          		</ul> <!-- navbar list -->
+        	</div><!-- /.navbar-collapse -->
+
+		</div>
+	</nav>
+
+	
+	<img id="picture" src="https://s10.postimg.org/fab0r4jk9/dark_vintage_wood_texture_fy4d3txc7.jpg">
+	<br><br><br>
+
+	<div class="col-sm-3"> </div>
+	<div class="col-sm-6 box">
+
+	<h4>Be sure to include your email so we can get back to you!</h4>
+	<br>
+
+		<form action="" method="post">
+			<div class="form-group"> 
+				<label> First Name: </label>
+				<input class="form-control" type="text" name="fname" placeholder="First Name">
+			</div>
+			<div class="form-group">
+				<label> Last Name: </label>
+				<input class="form-control" type="text"  name="lname" placeholder="Last Name">
+			</div>
+			<div class="form-group">
+				<label> Email: </label>
+				<input class="form-control" type="email" name="email" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<label> Message: </label>
+				<textarea rows="5" cols="50" class="form-control" name="msg" placeholder="Message"> </textarea> 
+			</div>
+			<br>
+			<button type="submit" class="btn btn-success btn-lg btn-block" name="form_submit"> Submit </button>
+			<h4>We'll respond to the email provided within 3 business days.</h4>
+		</form>
+	</div>
+
+
+
+
+	<footer class="footer">
+      <div class="container">
+
+
+        <div class="col-sm-4"><b>LOCATION</b>
+        <br>1234 Millberry Avenue
+        <br>Cereal, CA 54321
+        <br>Suite #1500
+
+        </div>
+        <div class="col-sm-4"><b>FOLLOW US</b>
+        <br><a href="#">Facebook</a>
+        <br><a href="#">Twitter</a>
+        <br><a href="#">Pinterest</a>
+
+        </div>
+        <div class="col-sm-4"><b>CONTACT US</div></b>
+        <br>(123)456-7890
+        <br>hello@hi.com
+
+
+
+      </div>
+    </footer>
+	
+</body>
+</html>
